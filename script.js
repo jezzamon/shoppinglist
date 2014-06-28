@@ -11,4 +11,8 @@ $(document).ready(function() {
     $(document).on("click", ".item", function() {
         $(this).remove();
     });
+    $("input").focus(function() {
+  		alert( "Handler for .focus() called." );
+});
+
     });
